@@ -1,0 +1,110 @@
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.App {
+  font-family: "Times New Roman";
+  z-index: 1;
+}
+
+body {
+  background-color: #fffbeb;
+}
+
+.App-header {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../public/flag.jpg');
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  text-align: center;
+}
+
+.App-body {
+  width: min(100vw, 2000px);
+  margin: auto;
+}
+
+.Arrow {
+  width: 5vw;
+  height: 5vw;
+  position: absolute;
+  left: 47.5vw;
+  top: 80vh;
+}
+
+.Title {
+  font-size: 4vw;
+  text-align: center;
+  color: #801414;
+}
+
+.ExtraBig {
+  font-size: 6vw;
+  color: white;
+}
+
+.Smaller {
+  font-size: 3vw;
+  margin: 1vh;
+}
+
+.BodyText {
+  width: min(70vw, 2000px);
+  margin: auto;
+  font-size: 1.5vw;
+  margin-bottom: 1vw;
+}
+
+.TinyReference {
+  font-size: 0.75vw;
+}
+
+sup {
+  height: min-content;
+  line-height: 1;
+  vertical-align: super;
+}
+
+iframe {
+  margin-left: calc(min(70vw, 2000px)/2 - 560px/2);
+}
+
+.VideoHeader {
+  font-size: 1vw;
+  text-align: center;
+}
+
+.TOC {
+  padding: 20px;
+  position: absolute;
+  right: 0;
+  top: 100vh;
+  font-size: 1vw;
+}
+
+.TOC a {
+  display: block;
+  text-align: left;
+  color: black;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 10px;
+}
+
+.TOC p {
+  color: black;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Damico {
+  width: 10vw;
+  position: absolute;
+  border-radius: 50%;
+}
