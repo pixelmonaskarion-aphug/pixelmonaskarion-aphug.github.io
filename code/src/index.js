@@ -2,25 +2,19 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import Sources from "./Sources"
 import reportWebVitals from './reportWebVitals';
-import {createBrowserRouter, RouterProvider,} from "react-router-dom";
+import Unit1 from './Unit1';
+import Unit2 from './Unit2';
+import { HeaderSpacer, Header } from './Shared';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-const router = createBrowserRouter([
-  {
-      path: "/",
-      element: <App/>
-  },
-  {
-      path: "/sources",
-      element: <Sources/>
-  },
-])
-
 root.render(
-  <RootApp/>
+  <>
+    <Header/>
+	<HeaderSpacer/>
+    <RootApp/>
+  </>
 );
 
 function RootApp(props) {
@@ -29,10 +23,13 @@ function RootApp(props) {
         <RouterProvider router={router}/>
       </div>
   )*/
-	let params = new URLSearchParams(window.location.search);
-	if (params.get("sources") != null) {
-		return <Sources/>
+	let path = window.location.pathname;
+	if (path == "/unit1") {
+		return <Unit1/>
+	} else if (path == "/unit2") {
+		return <Unit2/>
 	} else {
+		console.log(path);
 		return <App/>
 	}
 }

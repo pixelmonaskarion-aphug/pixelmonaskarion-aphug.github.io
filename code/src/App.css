@@ -42,6 +42,7 @@ body {
   font-size: 4vw;
   text-align: center;
   color: #801414;
+  display: block;
 }
 
 .ExtraBig {
@@ -112,4 +113,40 @@ iframe {
 .Header {
   text-align: end;
   height: 5vh;
+  line-height: 5vh;
+  font-size: larger;
+  margin: auto;
+  position: fixed;
+  background-color: #fffbeb;
+  width: 100%;
+
+}
+
+.HeaderSpacer {
+  height: 5vh;
+}
+
+.HeaderNav {
+  margin-right: 10px;
+  margin-left: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  color: #801414;
+}
+
+.Quote {
+  margin-left: 10%;
+  margin-right: 10%;
+  font-style: italic;
+}
+
+.Source {
+  text-align: center;
+  display: block;
+}
+
+.Image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
