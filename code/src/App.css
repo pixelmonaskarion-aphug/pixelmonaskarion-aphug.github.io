@@ -150,3 +150,18 @@ iframe {
   justify-content: center;
   align-items: center;
 }
+
+.Flex {
+  display: flex;
+  width: 100vw;
+  position: relative;
+  margin-left: calc((min(100vw, 2000px) - 100vw) / 2 + 5vw);
+}
+
+.FlexHalf {
+  flex: auto;
+}
+
+.HalfScreenImage {
+  width: 40vw;
+}
