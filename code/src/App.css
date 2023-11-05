@@ -165,3 +165,9 @@ iframe {
 .HalfScreenImage {
   width: 40vw;
 }
+
+.FLAnalysis {
+  text-align: center;
+  width: 80vw;
+  margin: auto;
+}
