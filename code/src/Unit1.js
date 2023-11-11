@@ -7,10 +7,14 @@ function Unit1() {
                 <div className="FlexHalf">
                     <img className="HalfScreenImage" src="https://www.freeworldmaps.net/asia/southkorea/southkorea-map-physical.jpg"/>
                     <img className="HalfScreenImage" src="https://www.freeworldmaps.net/centralamerica/panama/panama-map-physical.jpg"/>
+                    <img className="HalfScreenImage" src="https://www.nationsonline.org/maps/korea-south-political-map.jpg"/>
+                    <img className="HalfScreenImage" src="https://worldmapper.org/wp-content/uploads/2018/04/Grid_WPA_kor_2010.png"/>
                 </div>
                 <div className="FlexHalf">
                     <img className="HalfScreenImage" src="https://pbs.twimg.com/media/FR5zrEGXsAA1ZTq.png"/>
                     <img className="HalfScreenImage" src="https://maps.lib.utexas.edu/maps/americas/panama_pop_1981.jpg"/>
+                    <img className="HalfScreenImage" src="https://www.nationsonline.org/maps/panama-political-map.jpg"/>
+                    <img className="HalfScreenImage" src="https://user-images.githubusercontent.com/3218468/30176851-ca366a1e-93d1-11e7-9da8-a9ddcfdeef84.jpg"/>
                 </div>
             </div>
             <div className="FLAnalysis">
