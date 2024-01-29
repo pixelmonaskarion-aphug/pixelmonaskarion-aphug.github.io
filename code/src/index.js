@@ -3,9 +3,10 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { HeaderSpacer, Header } from './Shared';
 import Unit1 from './Unit1';
 import Unit2 from './Unit2';
-import { HeaderSpacer, Header } from './Shared';
+import Unit3 from './Unit3';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -28,6 +29,8 @@ function RootApp(props) {
 		return <Unit1/>
 	} else if (path == "/unit2") {
 		return <Unit2/>
+	} else if (path == "/unit3") {
+		return <Unit3/>
 	} else {
 		console.log(path);
 		return <App/>

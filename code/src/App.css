@@ -171,3 +171,30 @@ iframe {
   width: 80vw;
   margin: auto;
 }
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.ToponymName {
+  width: 25%;
+}
+
+.ToponymEx {
+  width: 75%;
+  min-height: 1000px;
+}
+
+table {
+  width: 60%;
+  margin-left: 20%;
+}
+
+tr:nth-child(even) {
+  background-color: #d6d3c6;
+}
+
+tr:nth-child(odd) {
+  background-color: #f3efe1;
+}
