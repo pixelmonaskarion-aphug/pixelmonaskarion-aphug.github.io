@@ -61,7 +61,7 @@ function Unit6() {
                 <p className='Title Smaller'>World City</p>
                 <p>Seoul is the fourth biggest city in the world! Influences from the city can be seen in media and in fashion everywhere.</p>
                 <p className='Title Smaller'>Site & Situation</p>
-                <p>From what I know about South Korea, Seoul is pretty much set! They're only possible threat is from North Korea but as of now there aren't any problems with that. The city is beutiful are green are lushious. I would love to live there or visit 😍😍</p>
+                <p>From what I know about South Korea, Seoul is pretty much set! They're only possible threat is from North Korea but as of now there aren't any problems with that. The city is beautiful and green and lushious. I would love to live there or visit 😍😍</p>
                 <img className="SmallImage" src="https://a.cdn-hotels.com/gdcs/production87/d1597/ecdd89f2-79d4-46a1-b474-6f132ffdc2d1.jpg"></img>
                 <img className="SmallImage" src="https://ik.imagekit.io/tvlk/blog/2023/08/n-seoul-tower-acc-1-2.webp?tr=dpr-2,w-675"></img>
                 <img className="SmallImage" src="https://korean.visitseoul.net/data/kukudocs/seoul2133/20220518/202205181617250471.jpg"></img>
