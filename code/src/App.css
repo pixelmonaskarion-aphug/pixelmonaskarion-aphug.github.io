@@ -198,3 +198,39 @@ tr:nth-child(even) {
 tr:nth-child(odd) {
   background-color: #f3efe1;
 }
+
+.Unit6CityDiv {
+  display: table-cell;
+  padding: 10px;
+}
+
+.Unit6CityDivInner {
+  width: calc(50vw - 20px);
+}
+
+.Center {
+  text-align: center;
+}
+
+.ListOfNames {
+  text-align: center;
+  font-weight: bold;
+}
+
+.SmallImage {
+  width: 50%;
+}
+
+.NormalSizeImage {
+  width: 100%;
+}
+
+.SmallImagesVertical {
+  display: flex;
+  flex-direction: column;
+}
+
+.SmallImagesHorizonal {
+  display: flex;
+  flex-direction: row;
+}

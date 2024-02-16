@@ -7,6 +7,8 @@ import { HeaderSpacer, Header } from './Shared';
 import Unit1 from './Unit1';
 import Unit2 from './Unit2';
 import Unit3 from './Unit3';
+import Unit4 from './Unit4';
+import Unit6 from './Unit6';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -31,6 +33,10 @@ function RootApp(props) {
 		return <Unit2/>
 	} else if (path == "/unit3") {
 		return <Unit3/>
+	} else if (path == "/unit4") {
+		return <Unit4/>
+	} else if (path == "/unit6") {
+		return <Unit6/>
 	} else {
 		console.log(path);
 		return <App/>
