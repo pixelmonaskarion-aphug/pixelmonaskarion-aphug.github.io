@@ -13,7 +13,7 @@ function Unit5() {
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Napa_cabbages.png/440px-Napa_cabbages.png"></img>
             <p className='Title Smaller'>Garlic</p>
             <p>Garlic is part of many dishes in South Korean cuisine. South Korea is one of the biggest exporter of Garlic in the world. </p>
-            <img src="http://koreabizwire.com/wp/wp-content/uploads/2015/02/garlic.jpg"></img>
+            <img src="https://ogden_images.s3.amazonaws.com/www.iamcountryside.com/images/sites/1/2021/09/19114817/AdobeStock_364056397-scaled-e1662410682321.jpeg"></img>
             <p className='Title Smaller'>Chillies</p>
             <img className="BigAssChillies" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Drying_Korean_chillies.jpg/2880px-Drying_Korean_chillies.jpg"></img>
         </div>
