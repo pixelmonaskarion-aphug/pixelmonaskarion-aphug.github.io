@@ -24,6 +24,10 @@ function Unit6() {
                 </div>
                 <p className='Title Smaller'>City Model</p>
                 <p>Because the city was built around the canal, Panama City is best described by the sector model.</p>
+                <p className='Title Smaller'>Site & Situation</p>
+                <p>Panama City is the connecting region between North and South America. It is a small and narrow area of land. There are many rivers and lakes in Panama that connect the Pacific and Atlantic oceans together. Panama is also the home of the Panaa Canal. This puts Panama in the unique situation to take advantage of trade and travel through it's canal.</p>
+                <p className="Title Smaller">World City</p>
+                <p>Panama City could be called a world city because of its impact on world trade through the Pacific and Atlantic oceans, but not as much as cities like South Korea.</p>
                 <div className="SmallImagesHorizonal">
                 <div className="SmallImagesVertical">
                     <img className="NormalSizeImage" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/9c/1d/fc/transito-por-la-8-maravilla.jpg?w=800&h=-1&s=1"></img>
