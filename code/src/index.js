@@ -8,8 +8,9 @@ import Unit1 from './Unit1';
 import Unit2 from './Unit2';
 import Unit3 from './Unit3';
 import Unit4 from './Unit4';
-import Unit6 from './Unit6';
 import Unit5 from './Unit5';
+import Unit6 from './Unit6';
+import Unit7 from './Unit7';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -40,6 +41,8 @@ function RootApp(props) {
 		return <Unit5/>
 	} else if (path == "/unit6") {
 		return <Unit6/>
+	} else if (path == "/unit7") {
+		return <Unit7/>
 	} else {
 		return <App/>
 	}
