@@ -1,6 +1,0 @@
-[global]
-port = 11223
-address = "0.0.0.0"
-[global.tls]
-certs = "/Users/christopherhuntwork/certs/fullchain.pem"
-key = "/Users/christopherhuntwork/certs/privkey.pem"
